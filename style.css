@@ -1,0 +1,126 @@
+#main-cnt {
+    margin-top: 120px;
+    margin-left: 120px;
+    height: 300px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    animation-name: change;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+
+}
+
+@keyframes change {
+    50% {
+        transform: rotate(360deg);
+    }
+
+}
+
+#r1 {
+    height: 100px;
+    width: 300px;
+    display: block;
+
+}
+
+#r11 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 0);
+    display: inline;
+    float: left;
+    border-radius: 8px;
+
+}
+
+#r12 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    display: inline;
+    float: left;
+    border-radius: 8px;
+
+
+}
+
+#r13 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(22, 255, 1);
+    display: inline;
+    float: left;
+    border-radius: 8px;
+}
+
+#r2 {
+    height: 100px;
+    width: 300px;
+    display: block;
+}
+
+#r21 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: inline;
+    float: left;
+    border-radius: 8px;
+}
+
+#r22 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(219, 219, 219);
+    display: inline;
+    float: left;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#r23 {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    display: inline;
+    float: left;
+    border-radius: 8px;
+}
+
+#r3 {
+    height: 100px;
+    width: 300px;
+    display: block;
+
+
+}
+
+#r31 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(22, 255, 1);
+    display: inline;
+    float: left;
+
+    border-radius: 8px;
+}
+
+#r32 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    display: inline;
+    float: left;
+    border-radius: 8px;
+}
+
+#r33 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: inline;
+    float: left;
+    border-radius: 8px;
+}
